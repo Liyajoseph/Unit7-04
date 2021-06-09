@@ -8,9 +8,10 @@ function check () {
 
   date = document.getElementById('input2').value
 
-  if ((date === 'Wednesday' || date === 'Saturday') || (age > 13 || age < 20)){ 
+  if ((date === 'Wednesday' || date === 'Saturday')
+  (age > 13 || age < 20)) { 
     document.getElementById('answer').innerHTML = 'You get student pricing.'
-      } else {
+  } else {
     document.getElementById('answer').innerHTML = 'You get regular pricing.'
   }
 }
